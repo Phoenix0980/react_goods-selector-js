@@ -56,16 +56,14 @@ export const App = () => {
                       -
                     </button>
                   ) : (
-                    !selectedGood && (
-                      <button
-                        data-cy="AddButton"
-                        type="button"
-                        className="button"
-                        onClick={() => setSelectedGood(g)}
-                      >
-                        +
-                      </button>
-                    )
+                    <button
+                      data-cy="AddButton"
+                      type="button"
+                      className="button"
+                      onClick={() => setSelectedGood(g)}
+                    >
+                      +
+                    </button>
                   )}
                 </td>
 
